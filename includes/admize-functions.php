@@ -35,7 +35,7 @@ function admize_customize_register( $wp_customize ) {
 		'ad_topheader',
 		array(
 			'default' => '',
-			'sanitize_callback' => 'admize_sanitize_cb'
+			//'sanitize_callback' => 'admize_sanitize_cb'
 		)
 	);
 	$wp_customize->add_control(
@@ -50,7 +50,7 @@ function admize_customize_register( $wp_customize ) {
 		'ad_toplink',
 		array(
 			'default' => '',
-			'sanitize_callback' => 'admize_sanitize_cb'
+			//'sanitize_callback' => 'admize_sanitize_cb'
 		)
 	);
 	$wp_customize->add_control(
@@ -66,7 +66,7 @@ function admize_customize_register( $wp_customize ) {
 		'ad_afterfirstpost',
 		array(
 			'default' => '',
-			'sanitize_callback' => 'admize_sanitize_cb'
+			//'sanitize_callback' => 'admize_sanitize_cb'
 		)
 	);
 	$wp_customize->add_control(
@@ -83,7 +83,7 @@ function admize_customize_register( $wp_customize ) {
 		'ad_singlepost',
 		array(
 			'default' => '',
-			'sanitize_callback' => 'admize_sanitize_cb'
+			//'sanitize_callback' => 'admize_sanitize_cb'
 		)
 	);
 	$wp_customize->add_control(
@@ -100,7 +100,7 @@ function admize_customize_register( $wp_customize ) {
 		'ad_bottom',
 		array(
 			'default' => '',
-			'sanitize_callback' => 'admize_sanitize_cb'
+			//'sanitize_callback' => 'admize_sanitize_cb'
 		)
 	);
 	$wp_customize->add_control(
@@ -125,7 +125,7 @@ function admize_customize_register( $wp_customize ) {
 		'layout_width',
 		array(
 			'default' => '960px',
-			'sanitize_callback' => 'admize_sanitize_layout_width'
+			//'sanitize_callback' => 'admize_sanitize_layout_width'
 		)
 	);
 	$wp_customize->add_setting(
@@ -209,7 +209,7 @@ function admize_customize_register( $wp_customize ) {
 	  $wp_customize->add_setting(
 		$color['slug'], array(
 		  'default' => $color['default'],
-		  'sanitize_callback' => 'sanitize_hex_color',
+		 // 'sanitize_callback' => 'sanitize_hex_color',
 		  'type' => 'option', 
 		  'capability' => 
 		  'edit_theme_options'
@@ -239,8 +239,8 @@ function admize_sanitize_footer_text( $input ) {
 }
 
 function admize_sanitize_layout_width( $value ) {
-    if ( ! in_array( $value, array( '960px') ) )
-        $value = '960px';
+    if ( ! in_array( $value, array( '') ) )
+        $value = '';
  
     return $value;
 }
@@ -406,12 +406,12 @@ function iwebtheme_customize_css(){
 	
 	$cust_lwidth = get_theme_mod('layout_width');
 
-		if($cust_skin != '#fa850b') {
+		if($cust_skin != '') {
 			$setting_css .= "a,h2.entry-title a:hover,.sidebar ul li a:hover,#top-menu ul li.current-menu-item a, #top-menu ul li.current-menu-parent a,#top-menu ul li a:hover {";
 			$setting_css .= "color: ".$cust_skin.";";
 			$setting_css .= "}";		
 		}
-		if($cust_skin != '#fa850b') {
+		if($cust_skin != '') {
 			$setting_css .= ".scrollup {";
 			$setting_css .= "background: none repeat scroll 0% 0% ".$cust_skin.";";
 			$setting_css .= "}";		
@@ -422,7 +422,7 @@ function iwebtheme_customize_css(){
 			$setting_css .= "background-color: ".$cust_skin.";";
 			$setting_css .= "}";		
 		}
-		if($cust_skin != '#fa850b') {
+		if($cust_skin != '') {
 			$setting_css .= "#secondary-menu.boxed {";
 			$setting_css .= "border-left: 1px solid ".$cust_skin.";";
 			$setting_css .= "border-right: 1px solid ".$cust_skin.";";
