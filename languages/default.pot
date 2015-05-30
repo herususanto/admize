@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: admize\n"
+"POT-Creation-Date: 2015-05-28 11:46+0700\n"
+"PO-Revision-Date: 2015-05-28 11:46+0700\n"
+"Last-Translator: \n"
+"Language-Team: iwebstudio\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11 ../archive.php:32 ../image.php:81 ../index.php:32
+#: ../page.php:28 ../single.php:41
+msgid "404 Error&#58; Not Found"
+msgstr ""
+
+#: ../404.php:14
+msgid "Sorry, but the page you are trying to reach does not exist."
+msgstr ""
+
+#: ../archive.php:16
+msgid "Archive for"
+msgstr ""
+
+#: ../archive.php:25
+msgid "Blog Archives"
+msgstr ""
+
+#: ../comments.php:26 ../comments.php:41
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:27 ../comments.php:42
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:28 ../comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:24
+msgid "http://iweb-studio.com"
+msgstr ""
+
+#: ../footer.php:24
+#, php-format
+msgid "Design by %s"
+msgstr ""
+
+#: ../footer.php:26
+msgid "&#94;"
+msgstr ""
+
+#: ../functions.php:18
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:19
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../functions.php:61
+#, php-format
+msgid "%2$s  %4$s"
+msgstr ""
+
+#: ../functions.php:80
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../functions.php:87
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../functions.php:94
+msgid "Footer Widget 1"
+msgstr ""
+
+#: ../functions.php:102
+msgid "Footer Widget 2"
+msgstr ""
+
+#: ../functions.php:110
+msgid "Footer Widget 3"
+msgstr ""
+
+#: ../functions.php:118
+msgid "Footer Widget 4"
+msgstr ""
+
+#: ../image.php:19
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: ../image.php:30
+msgid "Edit"
+msgstr ""
+
+#: ../image.php:68 ../page.php:16 ../single.php:23
+msgid "Pages:"
+msgstr ""
+
+#: ../search.php:28
+msgid "No results found for"
+msgstr ""
+
+#: ../includes/admize-functions.php:181
+msgid "Theme Skin Color"
+msgstr ""
+
+#: ../includes/admize-functions.php:186
+msgid "Top Menu Background"
+msgstr ""
+
+#: ../includes/admize-functions.php:191
+msgid "Top Menu Color"
+msgstr ""
+
+#: ../includes/content.php:13 ../includes/content.php:26
+msgid "Read More"
+msgstr ""
+
+#: ../includes/content.php:16
+msgid "Posted under: "
+msgstr ""
+
+#: ../includes/postmeta.php:2
+msgid "No Comment"
+msgstr ""
+
+#: ../includes/postmeta.php:2
+msgid "1 Comment"
+msgstr ""
+
+#: ../includes/postmeta.php:2
+msgid "% Comments"
+msgstr ""

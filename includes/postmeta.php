@@ -1,0 +1,2 @@
+<span class="auth"><?php admize_post_meta_data(); ?></span>
+<span class="comp"><?php comments_popup_link( __( 'No Comment', 'iwebtheme' ), __( '1 Comment', 'iwebtheme' ), __( '% Comments', 'iwebtheme' ) ); ?></span>	

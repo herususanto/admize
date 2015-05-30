@@ -1,0 +1,67 @@
+a {
+	color: #fa850b;
+}
+
+a.more-link {
+	background: #fa850b;
+}
+
+.pagination a.pagination_button {
+	background: #fa850b;
+}
+#top-menu ul li a:hover {
+	color: #fa850b;
+}
+#secondary-menu {
+	background: #fa850b;
+}
+#secondary-menu.boxed {
+	border-left: 1px solid #fa850b;
+	border-right: 1px solid #fa850b;
+}
+#content table th {
+	background: #fa850b;
+}
+.tagcloud a {
+	background: #fa850b;
+}
+
+#pagenavi a {
+	background-color: #fa850b;
+}
+#pagenavi span {
+	background-color: #fa850b;
+}
+#commentform #submit{
+	background: #fa850b;	
+}
+
+.sidebar ul li a:hover {
+	color: #fa850b;
+}
+
+#secondary-menu  ul li.dropme a{ background: #fa850b;} 
+#secondary-menu .current_page_item {
+	background: #fa850b;
+}
+
+#top-menu ul li.current-menu-item a, #top-menu ul li.current-menu-parent a {
+	color: #fa850b;
+}
+
+#top-menu .current-post-parent{
+	color: #fa850b;
+}
+#searchsubmit {
+	background: #fa850b;
+}
+
+#secondary-menu .first ul li.current-menu-item, #secondary-menu .first >ul >li a:hover {background:#fa850b; }
+
+h2.entry-title a:hover {
+	color: #fa850b;
+}
+
+.scrollup {
+	background: none repeat scroll 0% 0% #fa850b;
+}
